@@ -536,7 +536,6 @@
     </div>
 
     <script>
-        // Create starfield
         const starsContainer = document.getElementById('stars');
         for (let i = 0; i < 200; i++) {
             const star = document.createElement('div');
@@ -549,7 +548,6 @@
             starsContainer.appendChild(star);
         }
 
-        // Create particle system
         const particlesContainer = document.getElementById('particles');
         for (let i = 0; i < 30; i++) {
             const particle = document.createElement('div');
@@ -564,7 +562,6 @@
             particlesContainer.appendChild(particle);
         }
 
-        // Create floating hearts
         const heartsContainer = document.getElementById('floatingHearts');
         const heartSymbols = ['💖', '💕', '💗', '💝', '💘', '❤️', '💓'];
         
@@ -582,7 +579,6 @@
 
         setInterval(createFloatingHeart, 600);
 
-        // Create butterflies
         const butterfliesContainer = document.getElementById('butterflies');
         
         function createButterfly() {
@@ -600,7 +596,6 @@
 
         setInterval(createButterfly, 3000);
 
-        // Create sparkles
         const sparklesContainer = document.getElementById('sparkles');
         
         function createSparkle() {
@@ -616,7 +611,6 @@
 
         setInterval(createSparkle, 200);
 
-        // Create shooting stars
         function createShootingStar() {
             const star = document.createElement('div');
             star.style.position = 'fixed';
